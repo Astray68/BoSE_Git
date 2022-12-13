@@ -7,7 +7,6 @@ jobs:
       os: linux
       compiler: gcc
       script:
-        - wc -l matrixoperations.c
         - gcc -fPIC -c matrixoperations.c -o matrixoperations.o
         - gcc -shared matrixoperations.o -o libmatrixoperations.so
         - gcc -I`pwd` -L`pwd` main.c -lmatrixfact -o prog
