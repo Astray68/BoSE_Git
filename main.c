@@ -21,7 +21,7 @@ void printhelp(){
 	printf("PLUS- сумма всех чисел данной части матрицы \n\n");
 }
 void printerror(){
-    printf("ошибка\n -h -вызов справки\n");
+    printf("Ошиб \n -h -вызов справки\n");
 }
 int main(int argc, char *argv[]){
     
