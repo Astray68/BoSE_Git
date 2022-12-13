@@ -5,11 +5,11 @@
 #include <stdlib.h>
 //Справка 
 void printhelp(){
-    printf("Cправка\n\n\n") 
+    printf("Cправка\n\n\n");
     printf("Рабочий вызов: \n");
-    printf("prog -c <имя файла> -f <номер фрагмента> -n <номер операции> \n\n");
+    printf("main -c <имя файла> -f <номер фрагмента> -n <номер операции> \n\n");
 	printf("Вызов справки: \n");
-	printf("prog -h \n\n");
+	printf("main -h \n\n");
 	printf("Номер фрагмента: \n");
 	printf("1-левая верхняя часть \n");
 	printf("2-правая верхняя часть \n");
