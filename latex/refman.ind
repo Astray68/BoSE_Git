@@ -1,0 +1,23 @@
+\begin{theindex}
+
+  \item {GAN}
+    \subitem {matrixoperations.c}, \hyperpage{3}
+
+  \indexspace
+
+  \item {matrixoperations.c}, \hyperpage{3}
+    \subitem {GAN}, \hyperpage{3}
+    \subitem {MAX}, \hyperpage{3}
+    \subitem {MIN}, \hyperpage{4}
+    \subitem {PLUS}, \hyperpage{4}
+  \item {MAX}
+    \subitem {matrixoperations.c}, \hyperpage{3}
+  \item {MIN}
+    \subitem {matrixoperations.c}, \hyperpage{4}
+
+  \indexspace
+
+  \item {PLUS}
+    \subitem {matrixoperations.c}, \hyperpage{4}
+
+\end{theindex}

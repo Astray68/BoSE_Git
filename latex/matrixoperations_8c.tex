@@ -1,0 +1,81 @@
+\hypertarget{matrixoperations_8c}{}\doxysection{matrixoperations.\+c File Reference}
+\label{matrixoperations_8c}\index{matrixoperations.c@{matrixoperations.c}}
+{\ttfamily \#include \char`\"{}matrixoperations.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{matrixoperations_8c_a977911494eba563e6f5e9f0538d701ee}{GAN}} (char $\ast$lol, PMATRIX don)
+\item 
+float \mbox{\hyperlink{matrixoperations_8c_ac2abd2fbe58740e1af208d9ba4cd2cf3}{PLUS}} (PMATRIX don, int part)
+\begin{DoxyCompactList}\small\item\em The PLUS function calculates the sum of all numbers in the selected part of the matrix. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{matrixoperations_8c_a114b4eac3dca10680ff5b9fc48d1f88f}{MIN}} (PMATRIX don, int part)
+\begin{DoxyCompactList}\small\item\em MIN function -\/ output the minimum number from the selected part of the matrix. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{matrixoperations_8c_a5f421a374a567d1abdb81820d25c8a66}{MAX}} (PMATRIX don, int part)
+\begin{DoxyCompactList}\small\item\em MAX function -\/ output the maximum number from the selected part of the matrix. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{matrixoperations_8c_a977911494eba563e6f5e9f0538d701ee}\label{matrixoperations_8c_a977911494eba563e6f5e9f0538d701ee}} 
+\index{matrixoperations.c@{matrixoperations.c}!GAN@{GAN}}
+\index{GAN@{GAN}!matrixoperations.c@{matrixoperations.c}}
+\doxysubsubsection{\texorpdfstring{GAN()}{GAN()}}
+{\footnotesize\ttfamily int GAN (\begin{DoxyParamCaption}\item[{char $\ast$}]{lol,  }\item[{PMATRIX}]{don }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{matrixoperations_8c_a5f421a374a567d1abdb81820d25c8a66}\label{matrixoperations_8c_a5f421a374a567d1abdb81820d25c8a66}} 
+\index{matrixoperations.c@{matrixoperations.c}!MAX@{MAX}}
+\index{MAX@{MAX}!matrixoperations.c@{matrixoperations.c}}
+\doxysubsubsection{\texorpdfstring{MAX()}{MAX()}}
+{\footnotesize\ttfamily float MAX (\begin{DoxyParamCaption}\item[{PMATRIX}]{don,  }\item[{int}]{part }\end{DoxyParamCaption})}
+
+
+
+MAX function -\/ output the maximum number from the selected part of the matrix. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em PMATRIX} & don, int part -\/ incoming parameters pointing to the desired part of the matrix \\
+\hline
+\mbox{\texttt{ out}}  & {\em float} & S -\/ outgoing parameter denoting the final result \\
+\hline
+ & {\em int} & j1, j2, I, J -\/ parameters used to read the desired matrix values \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{matrixoperations_8c_a114b4eac3dca10680ff5b9fc48d1f88f}\label{matrixoperations_8c_a114b4eac3dca10680ff5b9fc48d1f88f}} 
+\index{matrixoperations.c@{matrixoperations.c}!MIN@{MIN}}
+\index{MIN@{MIN}!matrixoperations.c@{matrixoperations.c}}
+\doxysubsubsection{\texorpdfstring{MIN()}{MIN()}}
+{\footnotesize\ttfamily float MIN (\begin{DoxyParamCaption}\item[{PMATRIX}]{don,  }\item[{int}]{part }\end{DoxyParamCaption})}
+
+
+
+MIN function -\/ output the minimum number from the selected part of the matrix. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em PMATRIX} & don, int part -\/ incoming parameters pointing to the desired part of the matrix \\
+\hline
+\mbox{\texttt{ out}}  & {\em float} & S -\/ outgoing parameter denoting the final result \\
+\hline
+ & {\em int} & j1, j2, I, J -\/ parameters used to read the desired matrix values \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{matrixoperations_8c_ac2abd2fbe58740e1af208d9ba4cd2cf3}\label{matrixoperations_8c_ac2abd2fbe58740e1af208d9ba4cd2cf3}} 
+\index{matrixoperations.c@{matrixoperations.c}!PLUS@{PLUS}}
+\index{PLUS@{PLUS}!matrixoperations.c@{matrixoperations.c}}
+\doxysubsubsection{\texorpdfstring{PLUS()}{PLUS()}}
+{\footnotesize\ttfamily float PLUS (\begin{DoxyParamCaption}\item[{PMATRIX}]{don,  }\item[{int}]{part }\end{DoxyParamCaption})}
+
+
+
+The PLUS function calculates the sum of all numbers in the selected part of the matrix. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em PMATRIX} & don, int part -\/ incoming parameters pointing to the desired part of the matrix \\
+\hline
+\mbox{\texttt{ out}}  & {\em float} & S -\/ outgoing parameter denoting the final result \\
+\hline
+ & {\em int} & j1, j2, I, J -\/ parameters used to read the desired matrix values \\
+\hline
+\end{DoxyParams}
